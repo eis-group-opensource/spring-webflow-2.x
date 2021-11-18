@@ -1,0 +1,4 @@
+	Changes for patch spring-faces-e4:
+	* Addition of runtime forward compatability for Spring Framework 5.x.
+		Changed files:
+		- FlowElResolver - registering patched SpringBeanWebflowResolver as of dropped support for SpringBeanELResolver from Spring Framework 5.x
